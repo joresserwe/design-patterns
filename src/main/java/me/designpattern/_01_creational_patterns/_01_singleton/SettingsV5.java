@@ -1,6 +1,5 @@
-package me.designpattern.singleton;
+package me.designpattern._01_creational_patterns._01_singleton;
 
-import java.io.Serial;
 import java.io.Serializable;
 
 public class SettingsV5 implements Serializable {
@@ -21,7 +20,6 @@ public class SettingsV5 implements Serializable {
     }
 
     // 직렬화/역직렬화를 막아 둠
-    @Serial
     protected Object readResolve() {
         return getInstance();
     }

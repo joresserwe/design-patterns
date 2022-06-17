@@ -1,4 +1,4 @@
-package me.designpattern.singleton;
+package me.designpattern._01_creational_patterns._01_singleton;
 
 public class SettingsV4 {
 
